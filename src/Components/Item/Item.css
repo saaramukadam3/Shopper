@@ -9,13 +9,11 @@
     display: block;
   }
   
-  /* TEXT */
   .item p {
     margin: 6px 0;
     font-size: 16px;
   }
   
-  /* PRICES */
   .item-prices {
     display: flex;
     gap: 16px;
@@ -34,16 +32,12 @@
     text-decoration: line-through;
   }
   
-  /* HOVER EFFECT (DESKTOP ONLY) */
   @media (hover: hover) {
     .item:hover {
       transform: scale(1.05);
     }
   }
   
-  /* ------------------ RESPONSIVE ------------------ */
-  
-  /* Laptop */
   @media (max-width: 1280px) {
     .item {
       max-width: 220px;
@@ -59,7 +53,6 @@
     }
   }
   
-  /* Tablet */
   @media (max-width: 768px) {
     .item {
       max-width: 180px;
@@ -70,7 +63,6 @@
     }
   }
   
-  /* Mobile */
   @media (max-width: 480px) {
     .item {
       max-width: 100%;

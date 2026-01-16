@@ -9,7 +9,6 @@
     border-radius: 16px;
   }
   
-  /* LEFT SIDE */
   .offers-left {
     flex: 1;
     display: flex;
@@ -29,7 +28,6 @@
     font-weight: 500;
   }
   
-  /* BUTTON */
   .offers-left button {
     width: fit-content;
     padding: 14px 36px;
@@ -42,7 +40,6 @@
     cursor: pointer;
   }
   
-  /* RIGHT SIDE */
   .offers-right {
     flex: 1;
     display: flex;
@@ -60,7 +57,6 @@
     }
   }
   
-  /* Tablet */
   @media (max-width: 1024px) {
     .offers {
       gap: 24px;
@@ -75,7 +71,6 @@
     }
   }
   
-  /* Mobile */
   @media (max-width: 768px) {
     .offers {
       flex-direction: column;
@@ -96,7 +91,6 @@
     }
   }
   
-  /* Small Mobile */
   @media (max-width: 480px) {
     .offers-left h1 {
       font-size: 22px;

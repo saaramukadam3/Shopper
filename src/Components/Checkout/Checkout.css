@@ -9,13 +9,11 @@
     margin-bottom: 30px;
   }
   
-  /* Main Layout */
   .checkout-container {
     display: flex;
     gap: 30px;
   }
   
-  /* LEFT */
   .checkout-left {
     flex: 2;
     display: flex;
@@ -35,7 +33,6 @@
     font-size: 14px;
   }
   
-  /* Place Order Button */
   .checkout-placeorder {
     margin-top: 20px;
     height: 48px;
@@ -48,7 +45,6 @@
     cursor: pointer;
   }
   
-  /* RIGHT */
   .checkout-right {
     flex: 1;
     border: 1px solid #eee;
@@ -76,7 +72,6 @@
     font-weight: 700;
   }
   
-  /* ---------------- MOBILE ---------------- */
   @media (max-width: 768px) {
     .checkout-container {
       flex-direction: column;

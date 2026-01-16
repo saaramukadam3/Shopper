@@ -4,7 +4,6 @@
     padding: 0 16px;
   }
   
-  /* NAV TABS */
   .descriptionbox-navigator {
     display: flex;
     flex-wrap: wrap;
@@ -22,13 +21,11 @@
     background: #fff;
   }
   
-  /* ACTIVE / FADED TAB */
   .descriptionbox-nav-box.fade {
     background: #fbfbfb;
     color: #555;
   }
   
-  /* DESCRIPTION CONTENT */
   .descriptionbox-description {
     display: flex;
     flex-direction: column;
@@ -40,9 +37,6 @@
     line-height: 1.6;
   }
   
-  /* ------------------ RESPONSIVE ------------------ */
-  
-  /* Tablet */
   @media (max-width: 1024px) {
     .descriptionbox-nav-box {
       font-size: 14px;
@@ -53,8 +47,7 @@
       padding: 24px;
     }
   }
-  
-  /* Mobile */
+
   @media (max-width: 768px) {
     .descriptionbox {
       margin: 30px auto;
@@ -75,7 +68,6 @@
     }
   }
   
-  /* Small Mobile */
   @media (max-width: 480px) {
     .descriptionbox-description {
       padding: 16px;

@@ -8,7 +8,6 @@
     max-width: 1200px;
   }
   
-  /* TITLE */
   .popular h1 {
     color: #171717;
     font-size: 42px;
@@ -16,7 +15,6 @@
     text-align: center;
   }
   
-  /* UNDERLINE */
   .popular hr {
     width: 160px;
     height: 4px;
@@ -25,7 +23,6 @@
     border: none;
   }
   
-  /* ITEMS */
   .popular-item {
     margin-top: 40px;
     display: grid;
@@ -44,7 +41,6 @@
     }
   }
   
-  /* Tablet */
   @media (max-width: 1024px) {
     .popular h1 {
       font-size: 30px;
@@ -56,7 +52,6 @@
     }
   }
   
-  /* Mobile */
   @media (max-width: 768px) {
     .popular h1 {
       font-size: 24px;
@@ -69,7 +64,6 @@
     }
   }
   
-  /* Small Mobile */
   @media (max-width: 480px) {
     .popular h1 {
       font-size: 22px;

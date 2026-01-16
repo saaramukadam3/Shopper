@@ -7,7 +7,6 @@ const Checkout = () => {
   const { getTotalCartAmount } = useContext(ShopContext);
   const navigate = useNavigate();
 
-  // State for form fields
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -15,7 +14,6 @@ const Checkout = () => {
   const [city, setCity] = useState("");
   const [postalCode, setPostalCode] = useState("");
 
-  // Handler for Place Order button
   const handlePlaceOrder = () => {
     if (!name || !email || !address) {
       alert("Please fill in all required fields!");
@@ -27,7 +25,6 @@ const Checkout = () => {
       return;
     }
 
-    // Navigate to success page
     navigate("/order-success");
   };
 
@@ -36,7 +33,6 @@ const Checkout = () => {
       <h1>Checkout</h1>
 
       <div className="checkout-container">
-        {/* LEFT – Billing Details */}
         <div className="checkout-left">
           <h2>Billing Details</h2>
 
@@ -77,7 +73,6 @@ const Checkout = () => {
             onChange={(e) => setPostalCode(e.target.value)}
           />
 
-          {/* PLACE ORDER BUTTON */}
           <button
             type="button"
             className="checkout-placeorder"
@@ -87,7 +82,6 @@ const Checkout = () => {
           </button>
         </div>
 
-        {/* RIGHT – Order Summary */}
         <div className="checkout-right">
           <h2>Order Summary</h2>
 

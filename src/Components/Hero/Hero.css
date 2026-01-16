@@ -8,7 +8,6 @@
     overflow: hidden;
   }
   
-  /* LEFT SECTION */
   .hero-left {
     flex: 1;
     display: flex;
@@ -32,7 +31,6 @@
     line-height: 1.1;
   }
   
-  /* HAND ICON */
   .hero-hand-icon {
     display: flex;
     align-items: center;
@@ -43,7 +41,6 @@
     width: 80px;
   }
   
-  /* BUTTON */
   .hero-latest-btn {
     display: flex;
     justify-content: center;
@@ -60,7 +57,6 @@
     cursor: pointer;
   }
   
-  /* RIGHT SECTION */
   .hero-right {
     flex: 1;
     display: flex;
@@ -72,10 +68,7 @@
     width: 500px;
     max-width: 100%;
   }
-  
-  /* ---------------- RESPONSIVE ---------------- */
-  
-  /* Laptop */
+ 
   @media (max-width: 1280px) {
     .hero-left {
       margin-left: 80px;
@@ -90,7 +83,6 @@
     }
   }
   
-  /* Tablet */
   @media (max-width: 1024px) {
     .hero-left {
       margin-left: 40px;
@@ -119,10 +111,9 @@
     }
   }
   
-  /* Mobile */
 @media (max-width: 768px) {
   .hero {
-    flex-direction: row; /* KEEP SIDE BY SIDE */
+    flex-direction: row; 
     align-items: center;
     justify-content: space-between;
     padding: 40px 16px;
@@ -164,7 +155,6 @@
   }
 }
 
-/* Small Mobile */
 @media (max-width: 480px) {
   .hero {
     padding: 30px 12px;
@@ -199,19 +189,4 @@
   .hero-right img {
     width: 190px;
   }
-}
-
-
-.hero-hand-icon img {
-  animation: waveHand 1.8s infinite ease-in-out;
-  transform-origin: 70% 70%;
-}
-
-@keyframes waveHand {
-  0%   { transform: rotate(0deg); }
-  20%  { transform: rotate(12deg); }
-  40%  { transform: rotate(-8deg); }
-  60%  { transform: rotate(12deg); }
-  80%  { transform: rotate(-4deg); }
-  100% { transform: rotate(0deg); }
 }
