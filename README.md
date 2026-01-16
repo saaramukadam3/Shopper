@@ -1,8 +1,4 @@
 # 🛍️ Shopper — E‑Commerce React App
-
-
-
-## 🔥 Overview
 **Shopper** is a modern, responsive e‑commerce frontend built with **React.js**. It includes product listing, cart functionality, checkout flow, newsletter subscription, and dynamic load more behavior.
 
 This project is a great foundation for a **real e‑commerce site** or portfolio showcase.
