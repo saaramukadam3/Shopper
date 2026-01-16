@@ -12,8 +12,6 @@ This project is a great foundation for a **real e‑commerce site** or portfolio
 ---
 
 ## 🚀 Live Demo
-
-👉 *(Add your deployed link here — Netlify )*  
 **URL:** https://your-live-demo-url.com
 
 ---
