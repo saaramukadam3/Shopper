@@ -31,31 +31,6 @@ This project is a great foundation for a **real e‑commerce site** or portfolio
 
 ---
 
-## 🗂️ Project Structure
-Shopper/
-├─ public/
-│ └─ index.html
-├─ src/
-│ ├─ Components/
-│ │ ├─ CartItems/
-│ │ ├─ Hero/
-│ │ ├─ Item/
-│ │ └─ NewsLetter/
-│ ├─ Context/
-│ │ └─ ShopContext.js
-│ ├─ Pages/
-│ │ ├─ Checkout/
-│ │ ├─ OrderSuccess/
-│ │ └─ LoginSignup/
-│ ├─ CSS/
-│ ├─ App.jsx
-│ └─ index.js
-├─ .gitignore
-├─ package.json
-└─ README.md
-
----
-
 ## 🛠️ Tech Stack
 
 | Technology | Purpose |
