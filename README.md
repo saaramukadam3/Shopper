@@ -1,8 +1,6 @@
 # 🛍️ Shopper — E‑Commerce React App
 
-![License](https://img.shields.io/badge/license-MIT-blue)
-![React](https://img.shields.io/badge/React-17.0.2-blue)
-![CSS](https://img.shields.io/badge/CSS-Styled-green)
+
 
 ## 🔥 Overview
 **Shopper** is a modern, responsive e‑commerce frontend built with **React.js**. It includes product listing, cart functionality, checkout flow, newsletter subscription, and dynamic load more behavior.
